@@ -1,8 +1,9 @@
+import { AppRouter } from './router/AppRouter';
+
 export const PollitosPorciones = () => {
   return (
     <>
-      <h1>PollitosPorciones</h1>
-      <hr />
+      <AppRouter />
     </>
   );
 };
